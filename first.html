@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html</title>
+    <style type="text/css">
+        input{
+            margin: 10px 5px 0 0;
+        }
+        ul li{
+           list-style: none;
+        }
+        #submit{
+            border-radius: 8px;
+        }
+        /*.div1{
+            background-color: #333333;
+            height: 300px;
+            width: 300px;
+            margin: 0 0 0 20px;
+        }
+        .div2{
+            background-color: #dddddd;
+            height: 100px;
+            width: 100px;
+            margin: 0 0 0 20px;
+        }*/
+    </style>
+</head>
+<body>
+<h1>统一建模语言理论测试</h1>
+<form>
+    <table>
+        <tr>
+            <td>考试科目：</td>
+            <td>统一建模语言</td>
+            <td>时间：</td>
+            <td>100分钟</td>
+            <td>得分：</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>班级：</td>
+            <td><input type="text" value="1班"></td>
+            <td>学号：</td>
+            <td><input type="text"></td>
+            <td>姓名：</td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+<h2>一、填空题 (每空5分，共20分)</h2>
+<ol>
+    <li><span>UML的中文全称是：</span><input type="text"></li>
+    <li><span>对象最突出的特征是：</span><input type="text"><input type="text"><input type="text"></li>
+</ol>
+<h2>二、选择题(每题10分，共20分)</h2>
+<ol>
+    <li>
+        <p>UML与软件工程的关系是：</p>
+        <ul>
+            <li><input type="radio" name="Multiple1" >(A)UML就是软件工程</li>
+            <li><input type="radio" name="Multiple1" >(B)UML参与到软件工程中软件开发的几个阶段</li>
+            <li><input type="radio" name="Multiple1" >(C)UML与软件工程无关</li>
+            <li><input type="radio" name="Multiple1" >(D)UML是软件工程的一部分</li>
+        </ul>
+    </li>
+    <li>
+        <p>Java语言支持：</p>
+        <ul>
+            <li><input type="radio" name="Multiple1" >(A)单继承</li>
+            <li><input type="radio" name="Multiple1" >(B)多继承</li>
+            <li><input type="radio" name="Multiple1" >(C)单继承和多继承都支持</li>
+            <li><input type="radio" name="Multiple1" >(D)单继承和多继承都不支持</li>
+        </ul>
+    </li>
+</ol>
+<h2>三、多选题(每题10分，共20分)</h2>
+<ol>
+    <li>
+        <p>用例的粒度分为以下哪三种：</p>
+        <ul>
+            <li><input type="checkbox" name="Multiple1" >(A)概述级</li>
+            <li><input type="checkbox" name="Multiple1" >(B)需求级</li>
+            <li><input type="checkbox" name="Multiple1" >(C)用户目标级</li>
+            <li><input type="checkbox" name="Multiple1" >(D)子功能级</li>
+        </ul>
+    </li>
+    <li>
+        <p>类图由下列哪三种部分组成：</p>
+        <ul>
+            <li><input type="checkbox" name="Multiple1" >(A)名称(Name)</li>
+            <li><input type="checkbox" name="Multiple1" >(B)属性(Attribute)</li>
+            <li><input type="checkbox" name="Multiple1" >(C)操作(Operation)</li>
+            <li><input type="checkbox" name="Multiple1" >(D)方法(Funtion)</li>
+        </ul>
+    </li>
+</ol>
+<h2>四、判断题(每题10分，共20分)</h2>
+<ol>
+    <li><span>用例只是用于和客户交流和沟通的，用于确定需求。</span>
+        <input type="radio" name="judge1">&radic;
+        <input type="radio" name="judge1">x
+    </li>
+    <li><span>在状态图中，终止状态在一个状态图中允许有任意多个。</span>
+        <input type="radio" name="judge2">&radic;
+        <input type="radio" name="judge2">x
+    </li>
+</ol>
+<h2>五、简答题(每题20分，共20分)</h2>
+<ol>
+    <li>
+        <p>简述什么是模型以及模型的表现形式？</p>
+        <textarea name="answer" cols="100" rows="10"></textarea>
+    </li>
+</ol>
+    <input type="submit" id="submit" value="计算分数">
+</form>
+
+<!--<div class="div1">
+    div1
+    <div class="div2">
+        div2
+    </div>
+</div>-->
+</body>
+</html>
